@@ -1,0 +1,178 @@
+/* Home.css */
+
+/* General Styling */
+.home {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #2e3a59; /* Dark blue-gray for a professional header */
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #636e8a; /* Muted gray-blue for text */
+  margin-bottom: 30px;
+}
+
+.features {
+  margin-top: 50px;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #2e3a59; /* Dark blue-gray */
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: #2e3a59; /* Dark blue-gray */
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: #636e8a; /* Muted gray-blue */
+}
+
+.call-to-action {
+  margin-top: 50px;
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  color: #2e3a59; /* Dark blue-gray */
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  color: #636e8a; /* Muted gray-blue for text */
+  margin-bottom: 30px;
+}
+
+.cta-buttons .btn-signup,
+.cta-buttons .btn-login {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #4caf50; /* Green for buttons */
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta-buttons .btn-signup:hover,
+.cta-buttons .btn-login:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px 0;
+  font-size: 1.1rem;
+  color: #636e8a; /* Muted gray-blue */
+  background-color: #f4f6f9; /* Light background for footer */
+}
+
+/* Container Styling */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d1c4e9; /* Light lavender border */
+}
+
+/* Header Section */
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #5e35b1; /* Vibrant purple for the title */
+}
+
+.greeting {
+  text-align: center;
+  color: #9575cd; /* Soft lavender color for the greeting */
+}
+
+/* Progress Summary */
+.progressSummary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.progressSummary h3 {
+  color: #673ab7; /* Deep purple for section header */
+}
+
+.progressBarContainer {
+  height: 20px;
+  width: 100%;
+  background-color: #ede7f6; /* Light lavender background */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: #7e57c2; /* Vibrant purple for progress */
+  transition: width 0.5s ease;
+}
+
+/* Task List */
+.taskList {
+  margin-top: 20px;
+}
+
+.taskList h3 {
+  color: #512da8; /* Deep purple for task list title */
+}
+
+.taskItem {
+  padding: 10px;
+  background-color: #f3e5f5; /* Very light purple background for task items */
+  border: 1px solid #d1c4e9; /* Light purple border */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Task Name */
+.taskName {
+  font-weight: bold;
+  color: #512da8; /* Deep purple for task names */
+}
+
+/* Task Status */
+.taskStatus {
+  font-style: italic;
+  color: #673ab7; /* Medium purple for task statuses */
+}
+
+/* Complete Button */
+.completeButton {
+  padding: 5px 10px;
+  background-color: #7e57c2; /* Vibrant purple for complete button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.completeButton:hover {
+  background-color: #5e35b1; /* Darker purple on hover */
+}

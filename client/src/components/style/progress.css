@@ -1,0 +1,23 @@
+/* progress.css */
+.progress-tracking-container {
+    padding: 20px;
+  }
+  
+  .steps-list {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    gap: 10px; /* Space between each step */
+    margin-top: 20px;
+  }
+  
+  .step-item {
+    display: flex;
+    align-items: center; /* Align checkbox and label on the same line */
+    gap: 10px; /* Space between checkbox and label */
+  }
+  
+  .step-item label {
+    font-size: 16px;
+    margin: 0; /* Remove any default margin */
+  }
+  
